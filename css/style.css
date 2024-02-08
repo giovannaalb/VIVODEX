@@ -1,0 +1,198 @@
+ @import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: #fff;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ header {
+     margin-top: 0;
+     background-color: rgb(96, 153, 102);
+ }
+
+ header h1 {
+     padding: 40px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(251, 216, 93);
+ }
+
+ #vivodex {
+     display: inline;
+     margin-top: 8px;
+     text-align: center;
+     font-family: 'Pokemon Solid', sans-serif;
+     color: rgb(0, 0, 0);
+ }
+
+ .margem {
+     color: rgb(0, 0, 0);
+     margin-top: 40px;
+     margin-left: 4vh;
+ }
+
+ .menu-lateral {
+     background-color: rgb(96, 153, 102);
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .menu-lateral ul {
+     text-decoration: none;
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     margin: 20px;
+ }
+
+ .menu-lateral ul li {
+     list-style: none;
+     cursor: pointer;
+     padding: 1%;
+ }
+
+ .menu-lateral ul li:hover {
+     background-color: rgb(157, 192, 139);
+     transition: 0.2s;
+     border-radius: 4px;
+ }
+
+ .menu-lateral ul li a {
+     text-decoration: none;
+     font-size: large;
+     color: black;
+ }
+
+
+ .tudo {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     gap: 16px;
+     /* gap define os espaços entre as linhas e colunas */
+ }
+
+ .card {
+     margin: 5px;
+     background-color: #fff;
+     width: 230px;
+     height: 352px;
+     border-radius: 12px;
+     box-shadow: 4px 4px 12px #aaaa;
+     border: black 1.5px solid;
+ }
+
+ .card img {
+     width: 100%;
+     height: 140px;
+     border-top-left-radius: 12px;
+     border-top-right-radius: 12px;
+ }
+
+ .card div {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 4px;
+     height: 50%;
+ }
+
+ .card h1 {
+     font-size: 1.2rem;
+     margin-top: 19px;
+ }
+
+ .card h2 {
+     margin: 5px;
+     font-size: .9rem;
+     color: #aaaa;
+ }
+
+ .card span {
+     margin-bottom: 5px;
+     font-size: .8rem;
+ }
+
+ .card button {
+     background-color: rgb(166, 187, 141);
+     height: 30px;
+     border: none;
+     padding: 4px;
+     width: 80%;
+     color: #fff;
+     font-size: 1rem;
+     font-weight: bold;
+     border-radius: 10px;
+ }
+
+ .card button a:hover {
+     color: #fff;
+ }
+
+ .card button a {
+     text-decoration: none;
+     color: blue;
+ }
+
+ h2 {
+     margin: 25px;
+     margin-bottom: 12px;
+ }
+
+ main {
+     margin-left: 20px;
+ }
+
+ #agricola {
+     margin-left: 30%;
+ }
+
+ .wrap {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     gap: 16px;
+     /* gap define os espaços entre as linhas e colunas */
+     margin: 20px;
+ }
+
+ p {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: larger;
+     margin: 1.5%;
+     margin-bottom: 2%;
+ }
+
+ .left {
+     background-color: #5ce93162;
+     width: 50%;
+     margin-left: 3%;
+     margin-top: 40px;
+     border-radius: 5px;
+     padding: 20px;
+     margin-bottom: 30px;
+ }
+
+ .flor {
+     margin-left: 65%;
+     margin-top: -30%;
+     border-radius: 5px;
+ }
+
+ .agricola{
+    margin-left: 67%;
+    margin-top: -50%;
+    margin-bottom: 25%;
+    border-radius: 5px;
+ }
